@@ -1,6 +1,11 @@
+.ingredients-list-container {
+  width: 100%;
+}
+
 .ingredients-list {
   list-style: none;
   margin-top: 20px;
+  width: 100%;
 }
 
 .item-checked {

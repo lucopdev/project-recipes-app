@@ -1,6 +1,6 @@
 .search-bar-container {
   align-items: center;
-  background-color: #7303f4;
+  background-color: #7303f4ab;
   border-radius: 10px;
   color: white;
   display: flex;
@@ -9,7 +9,8 @@
   top: 70px;
   height: 200px;
   justify-content: flex-end;
-  width: 80%;
+  width: 70%;
+  padding-bottom: 30px;
 }
 
 .input-search {
@@ -22,7 +23,7 @@
   height: 40px;
   margin-bottom: 10px;
   padding: 10px;
-  width: 100%;
+  width: 70%;
 }
 
 .input-search::selection {

@@ -120,6 +120,7 @@ function IngredientsList() {
   return (
     <div
       data-testid="ingredients-List-container"
+      className="ingredients-list-container"
     >
       <h1>ingredients</h1>
       <ul

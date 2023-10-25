@@ -8,8 +8,9 @@ footer {
   display: flex;
   height: 60px;
   justify-content: space-evenly;
+  margin-left: 15%;
   position: fixed;
-  width: 100%;
+  width: 70%;
 }
 
 .drink-icon {
@@ -19,4 +20,11 @@ footer {
 .meals-and-drinks-button {
   background-color: rgba(255, 255, 255, 0);
   border: none;
+}
+
+@media (max-width: 700px) {
+  footer {
+    margin-left: 0;
+    width: 100%;
+  }
 }

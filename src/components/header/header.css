@@ -8,10 +8,11 @@ header {
   display: flex;
   flex-flow: column;
   justify-content: space-evenly;
-
-  /* position: fixed; */
+  margin-left: 15%;
+  position: fixed;
   top: 0;
-  width: 100%;
+  width: 70%;
+  z-index: 10;
 }
 
 .header-title {
@@ -40,4 +41,11 @@ header {
 .search-button {
   background-color: rgba(255, 255, 255, 0);
   border: none;
+}
+
+@media (max-width: 700px) {
+  header {
+    margin-left: 0;
+    width: 100%;
+  }
 }
