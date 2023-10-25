@@ -5,7 +5,10 @@
   color: white;
   display: flex;
   flex-flow: column;
-  justify-content: flex-start;
+  position: absolute;
+  top: 70px;
+  height: 200px;
+  justify-content: flex-end;
   width: 80%;
 }
 
